@@ -1,0 +1,18 @@
+{
+    "name": "araido-284",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "https://araido-284.azurewebsites.net/api/messages",
+            "id": "99a65f80-a999-11eb-b8e2-27bd718598d4",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "https://araido-284.azurewebsites.net/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\ACER\\Araido chatbot\\araido-284\\araido-284.bot",
+    "overrides": null
+}

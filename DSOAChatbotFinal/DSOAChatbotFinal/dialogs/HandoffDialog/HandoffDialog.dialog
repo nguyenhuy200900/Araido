@@ -1,0 +1,46 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "bYij5G",
+    "name": "HandoffDialog",
+    "description": "If there is a question that the bot can't answer, it will be handle by an online agent."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "WDkCtr"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "RRyirv"
+          },
+          "activity": "${SendActivity_RRyirv()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "FzBp7N"
+          },
+          "activity": "${SendActivity_FzBp7N()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "mcnDT3"
+          },
+          "activity": "${SendActivity_mcnDT3()}"
+        }
+      ]
+    }
+  ],
+  "generator": "HandoffDialog.lg",
+  "recognizer": "HandoffDialog.lu.qna",
+  "id": "HandoffDialog"
+}

@@ -1,0 +1,24 @@
+{
+  "profileName": "DSOAChatbot",
+  "jobId": "1ddffa3f-2fea-4410-80e1-ce4e5831226b",
+  "projectId": "60828.80618512221",
+  "time": "2021-07-02T13:23:29.102Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: wing-bot at northeurope",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : d76be2e6-5e55-4a75-934b-078d97eccf66",
+    "> Create App Registration Success! ID: d76be2e6-5e55-4a75-934b-078d97eccf66",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: fc9a879b-96a6-4c30-9788-d5b3f734f90e ...",
+    "> AppInsights InstrumentationKey: 440dbac8-adb2-45bc-8121-936ef38fd12b ...",
+    "> AppInsights ApiKey: 6sandhmtuinztegdyb7lnsyi7qzcjgnqel21tswt ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Luis Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

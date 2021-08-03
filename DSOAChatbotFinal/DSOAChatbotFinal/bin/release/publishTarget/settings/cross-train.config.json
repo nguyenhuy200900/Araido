@@ -1,0 +1,22 @@
+{
+  "DSOAChatbotFinal.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "": [
+        "ChitchatDialog.en-us"
+      ],
+      "weather": [
+        "getWeather.en-us"
+      ],
+      "cancel": [
+        "CancelDialog.en-us"
+      ],
+      "Handoff": [
+        "HandoffDialog.en-us"
+      ],
+      "None": [
+        "ChitchatDialog.en-us"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[import](common.lg)
+
+# SendActivity_QcsTZc()
+[Activity
+    Text = ${SendActivity_QcsTZc_text()}
+]
+
+# SendActivity_QcsTZc_text()
+- ```🖐️ Welcome back! How can I help you today?
+```
+- 🖐️ Hello again! What can I help with?
+- 🖐️ Good to see you again. What do you want to do today?
+- 🖐️ Hey, there! Let's get started.
+- 🖐️ Hello again! How can I help?
+# SendActivity_G8uKE5()
+[Activity
+    Text = ${SendActivity_G8uKE5_text()}
+]
+
+# SendActivity_G8uKE5_text()
+- 🖐️ Hey, there! Welcome to DevSecOps Academy. How can I help you today?
+- 🖐️ Hi! Welcome to DevSecOps Academy. How can I help?
+- 🖐️ Hello! Welcome to DevSecOps Academy. What do you want to do today?
+# SendActivity_Rxjqev_text()
+- If you haven't thought of any questions yet, you can always type 'Help' at any time
+- If you haven't yet come up with any questions, just type 'Help' at any time
+- Type 'Help' to the chat for more suggestions
+- If you ever need assistance, just type 'Help' to the chat
+# SendActivity_Rxjqev()
+[Activity
+    Text = ${SendActivity_Rxjqev_text()}
+]

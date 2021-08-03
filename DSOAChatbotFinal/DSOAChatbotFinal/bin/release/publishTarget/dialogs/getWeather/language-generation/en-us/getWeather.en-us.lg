@@ -1,0 +1,53 @@
+[import](common.lg)
+
+# SendActivity_OIIp54()
+[Activity
+    Text = Let's check the weather
+]
+
+# TextInput_Prompt_uukbfY()
+[Activity
+    Text = What's your postal code?
+    SuggestedActions = help | cancel
+]
+
+# TextInput_UnrecognizedPrompt_uukbfY()
+[Activity
+    Text = ${TextInput_UnrecognizedPrompt_uukbfY_text()}
+]
+
+# TextInput_UnrecognizedPrompt_uukbfY_text()
+- ```Sorry, I do not understand '${this.value}'. Please specify a 5 digit postal code in the format 12345.
+```
+# TextInput_InvalidPrompt_uukbfY()
+[Activity
+    Text = ${TextInput_InvalidPrompt_uukbfY_text()}
+]
+
+# TextInput_InvalidPrompt_uukbfY_text()
+- ```Sorry, '${this.value}' is not valid. I'm looking for a 5 digit number as postal code. Please specify a 5 digit postal code in the format 12345.
+```
+# TextInput_DefaultValueResponse_uukbfY()
+[Activity
+    Text = 98052
+]
+
+# SendActivity_DxnMt3()
+[Activity
+    Text = I got an error: ${dialog.api_response.content.message}
+]
+
+# SendActivity_KcTXul()
+[Activity
+    Attachments = ${json(SendActivity_KcTXul_attachment_8ZyqxY())}
+]
+
+# DescribeWeather(weather)
+- It is "${dialog.weather}" in ${user.postalcode} and the temperature is ${dialog.fahrenheit}&deg;F or ${dialog.celsius}&deg;C. Have a nice day.
+
+# SendActivity_KcTXul_attachment_8ZyqxY()
+[ThumbnailCard
+    title = Weather in ${dialog.city} in ${dialog.country}
+    text =  ${DescribeWeather(dialog.weather)} 
+    image = http://openweathermap.org/img/wn/${dialog.icon}@2x.png
+]

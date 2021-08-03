@@ -1,8 +1,0 @@
-{
-  "$kind": "Microsoft.MultiLanguageRecognizer",
-  "id": "LUIS_DSOAChatbotFinal",
-  "recognizers": {
-    "en-us": "DSOAChatbotFinal.en-us.lu",
-    "": "DSOAChatbotFinal.en-us.lu"
-  }
-}
